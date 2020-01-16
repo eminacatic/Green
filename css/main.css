@@ -7058,5 +7058,20 @@ label.panel-block {
     #second_section .images .image3 {
       margin-top: -6vw; }
 
-#third_section .food {
-  width: 25%; }
+#third_section {
+  background-color: #fbf7f1; }
+  #third_section .ourMenu ul {
+    display: inline-block; }
+    #third_section .ourMenu ul li {
+      display: inline-block;
+      padding-left: 4vw;
+      padding-right: 4vw; }
+  #third_section .pastaItems .food {
+    width: 47%;
+    float: left;
+    padding: 1%;
+    background-color: #fbf7f1; }
+
+#fourth_secton {
+  width: 100%;
+  clear: left; }

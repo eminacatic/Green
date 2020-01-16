@@ -127,12 +127,37 @@ $primary-invert: $pink-invert;
         } 
 }
 #third_section{
-.food{
-    width:25%;
-}
+    background-color: #fbf7f1;
+    .ourMenu{
+        ul{
+            display: inline-block;
+            li{
+                display: inline-block;
+                padding-left: 4vw;
+                padding-right: 4vw;
+                .title{
+
+                }
+                .description{
+
+                }
+            }
+
+        }
+    }
+    .pastaItems{
+        .food{
+            width:47%;
+            float:left;
+            padding:1%;
+            background-color: #fbf7f1;
+        }
+    }
+    
 }
 #fourth_secton{
-
+width:100%;
+clear:left;
 }
 #fifth_secton{
 
