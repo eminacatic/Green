@@ -32,7 +32,7 @@ $primary-invert: $pink-invert;
     background-size: cover;
     color:#f9f9f9;
     font-family: IBMPlexSans;
-    height:50vw;
+    height:60vw;
     ul{
         display:inline-block;
         li{
@@ -40,14 +40,13 @@ $primary-invert: $pink-invert;
             padding-left: 4vw;
             padding-right: 4vw;
             .top{
-                    font-size: 15px;
+                    font-size: 1vw;
             }
             .bottom{
-                    font-size: 16px;
+                    font-size: 1.2vw;
             }
             .logo{
-                width: 140px;
-                height: 134px;
+                width: 8vw;
                 margin-left: 50%;
                 margin-right: 50%;
                 object-fit: contain;
@@ -58,71 +57,70 @@ $primary-invert: $pink-invert;
         align-items: center;
         .illustration{
             position:absolute;
-            width: 498px;
-            height: 498px;
+            width: 35vw;
             object-fit: contain;
-            margin-left: 32%;
-            
+            margin-left: 35vw;
         }
         h1{
             position:absolute;
-            width: 714px;
-            height: 88px;
             font-family: Simplicity;
-            font-size: 64px;
+            font-size: 5vw;
             text-align: center;
             margin-left: 25%;
             margin-top: 14%;
-            
         }
         .menuButton{
             position: absolute;
-            width: 184px;
-            height: 52px;
+            width: 10vw;
+            height: 3vw;
             background-color: #8cba40;
-            margin-left: 43%;
+            margin-left: 47vw;
             margin-top: 35%;
             color:#f9f9f9;
             border-color: #8cba40;;
         }
         .boxButton{
-            width: 114px;
-            height: 114px;
+            position:absolute;
+            width: 10vw;
+            height: 10vw;
             background-color: #8cba40;
-            font-size: 50px;
-            margin-left: 10%;
-            margin-top:35%;
+            font-size: 5vw;
+            margin-left: 10vw;
+            margin-top:47vw;
             border-color: #8cba40;
             color:#f9f9f9;
         }
     }
-    
 }
 #second_section{
+    display:inline-block;
     background-color:#fbf7f1;
-    h2{
-        padding-top:5vw;
-        font-family: Simplicity;
-        font-size: 56px;
-        padding-left:3vw;
-    }
     .text{
-        width: 50vw;
-        padding-left:3vw;
-        font-size: 15px;
+        width:49%;
+        padding:3vw;
+        font-size: 1pvw;
+        float:left;
+        h2{
+            padding-top:5vw;
+            font-family: Simplicity;
+            font-size: 56px;
+            padding-left:3vw;
         }
-    .image1{
-
+        .illustration2{
+            width:15vw;
+            opacity: 13%;
+        }
     }
-    .image2{
-
-    }
-    .image3{
-
-    }
-    .image4{
-
-    }
+        .images{
+            .image1,.image2,.image3,.image4{
+                float: left;
+                width:20vw;
+                padding:1vw;
+            }
+            .image1{
+                
+            }
+        } 
 }
 #third_section{
 
