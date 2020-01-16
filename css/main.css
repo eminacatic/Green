@@ -6994,8 +6994,7 @@ label.panel-block {
         font-size: 1.2vw; }
       #first_section ul li .logo {
         width: 8vw;
-        margin-left: 50%;
-        margin-right: 50%;
+        margin-left: 8.5vw;
         object-fit: contain; }
   #first_section .center {
     align-items: center; }
@@ -7036,18 +7035,25 @@ label.panel-block {
   background-color: #fbf7f1; }
   #second_section .text {
     width: 49%;
-    padding: 3vw;
+    padding: 5vw;
     font-size: 1pvw;
     float: left; }
     #second_section .text h2 {
       padding-top: 5vw;
       font-family: Simplicity;
-      font-size: 56px;
+      font-size: 5vw;
       padding-left: 3vw; }
     #second_section .text .illustration2 {
       width: 15vw;
-      opacity: 13%; }
-  #second_section .images .image1, #second_section .images .image2, #second_section .images .image3, #second_section .images .image4 {
-    float: left;
-    width: 20vw;
-    padding: 1vw; }
+      opacity: 13%;
+      margin-top: 2vw; }
+  #second_section .images {
+    margin-top: 2vw; }
+    #second_section .images .image1, #second_section .images .image2, #second_section .images .image3, #second_section .images .image4 {
+      float: left;
+      width: 20vw;
+      padding: 1vw; }
+    #second_section .images .image2 {
+      margin-top: 2vw; }
+    #second_section .images .image3 {
+      margin-top: -6vw; }
